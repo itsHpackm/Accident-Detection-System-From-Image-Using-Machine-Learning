@@ -1,0 +1,369 @@
+.dropdown .dropdown-item:hover{
+	background:#1f8d94; 
+	color:white;
+	border:none;
+	 
+}
+ .dropdown:hover{
+ display:block;
+
+ }
+.navbar-brand{
+    font-weight : bold ;
+    font-family:monospace;
+    font-size:28px;
+	color:black;
+ }
+  .navbar .navbar-brand{
+	font-size: 28px;
+	text-transform:uppercase;
+	font-family:monospace;
+	letter-spacing:3px;
+	font-weight:bold;
+}
+
+ .navbar{
+	 position : absolute;
+ }
+.navbar  .navbar-nav .nav-link{
+	font-weight:700;
+	font-size:16px;
+	color:white;
+
+}
+.navbar-nav .nav-item{
+	margin:0 6px;
+}
+
+ .navbar-nav  .nav-link:focus{
+	color:white;
+}
+ .navbar-nav .nav-item .nav-link:hover{
+	  bottom: -10px;
+	  left: 0;
+	  right: 0;
+	  content: " ";
+	  color: #1f8d94;
+	  border-bottom: 3px solid #1f8d94;
+ }
+
+  @media only screen and (max-width:991px){
+	.navbar-nav.ml-auto{
+		background:rgba(0,0,0,.5);
+	}
+	.navbar-toggler{
+		padding: 1px 5px;
+		font-size:18px;
+		line-height:0.3;
+		background:white;
+
+	}
+}
+
+.navbar .navbar-nav .nav-item .active:hover{
+	text-shadow: 0px 0px 5px #ccc;
+    color:#cccccc;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link{
+ 	  bottom: -10px;
+	  left: 0;
+	  right: 0;
+	  width: 100%;
+	  content: " ";
+	   color: white;
+	  border-bottom: 2px solid white;
+
+}
+.navbar-nav .nav-link{
+	padding: .2rem 1rem;
+}
+.navbar-nav{
+	text-align:center;
+}
+
+
+ .nav .nav-tabs a{
+     color:red;
+     padding : 8px 9px;
+     color:#fff;
+	font-size: 14px;
+	text-transform:uppercase;
+	font-family:sans-serif;
+	font-weight:bolder;
+
+ }
+
+
+/* carosrel */
+
+.carousel-item{
+	height:100vh;
+	min-height:300px;
+	background: no-repeat center center scroll;
+	background-size:cover;
+	-webkit-background-size:cover;
+}
+.carousel-caption{
+    bottom:20%;
+	padding:50px;
+	background:rgba(0,0,0,.7);
+	box-shadow:0 8px 15px rgba(0,0,0,.4);
+}
+.carousel-caption h5{
+	font-size: 50px;
+	letter-spacing: 2px;
+	margin-top:25px;
+	font-family:sans-serif;
+	font-weight:bold;
+	font-family: 'Agency FB';
+	text-transform:uppercase;
+}
+.carousel-caption p{
+	font-size: 25px;
+	margin:auto;
+	font-family:sans-serif;
+	line-height:1.9;
+	font-weight:bold;
+
+}
+.carousel-caption p a{
+	text-transform:uppercase;
+	padding:10px 30px;
+	margin-top:15px;
+	display:inline-block;
+	font-weight:bold;
+}
+.w-100{
+	height:100vh;
+}
+
+/*footer */
+
+.footer-classic .brand h3{
+	font-family:monospace;
+	font-weight:bold;
+	font-size : 40;
+	letter-spacing : 2px;
+}
+
+/* search */
+
+.topleft {
+  position: relative;
+  top:-70px;
+  text-align: center;
+  font-size: 40px;
+  color:black;
+  margin-left:auto;
+  font-weight:bold;
+  margin-right:auto;
+}
+.menu .topleft{
+	padding:35px;
+	background:rgba(0,0,0,.5);
+	box-shadow: 0px 10px 30px rgba(0,0,0,.8);
+	width:450px;
+}
+/* header*/
+
+#bg{
+	margin-top: 5%;
+}
+
+/* form */
+#inscription {
+	position: relative;
+	margin-top: 50px;
+	display: block;
+	margin-bottom:70px;
+	margin-left:auto;
+	padding-left: 0%;
+	margin-right:auto;
+	color:white;
+	font-family: sans-serif;
+	padding: 40px 10px;
+	width: 400px;
+	background-color:rgba(0,0,0,.5);
+	background-size: cover;
+	opacity: 0.9;
+	box-shadow: 0px 10px 30px rgba(0,0,0,.8);
+	border-radius: 14px;
+}
+#inscription #input{
+	margin:8px;
+}
+#inscription #input input{
+	width: 60%;
+	margin-bottom: 8px;
+	margin-left: 60px;
+	padding: 4px 5px;
+	color: white;
+	font-size: 14px;
+	font-family: sans-serif;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid white;
+	background: transparent;
+}
+#inscription #input label {
+	position:relative;
+	right: 60%;
+	pointer-events: none;
+}
+#inscription #input input:focus ~ label,
+#inscription #input input:valid ~ label{
+	top:-20px;
+	font-size: 10px;
+	transition :0.5s;
+}
+#inscription #button input {
+	position: relative;
+	left: 50%;
+	border: none;
+	background: transparent;
+	outline: none;
+	margin: 5px;
+	padding: 8px;
+	color:#fff;
+	font-size: 18px;
+	cursor: pointer;
+	font-family: sans-serif;
+}
+
+#inscription #btn12 {
+	border-radius: 10px;
+	width: 80%;
+	margin-top: 8px;
+	float:left;
+	margin-left:9%;
+	border-radius: 10px;
+	font-size:18px;
+	font-weight:bold;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	font-family: 'Agency FB';
+	margin-bottom: 8%;
+
+}
+#inscription #button input:hover {
+	font-weight: bold
+}
+
+.inscription-text{
+	color: rgb(97, 103, 113);
+	font-size:14px;
+	font-family:sans-serif;
+	text-align:justify;
+}
+.input-file::-webkit-file-upload-button{
+  background-color: rgba(0,0,0,.5); 
+  color: white; 
+  border: 2px solid white;
+  border-radius: 7px;
+}
+.input-file{
+	  position:relative;
+    padding-bottom:14px;
+}
+.input-file::-webkit-file-upload-button:hover{
+	letter-spacing:0.5px;
+	 background-color: rgba(0,0,0,.7);
+}
+/* post slider  */
+
+/* .page-wrapper a:hover{
+	background-color: #1f8d94;
+} */
+ .post-slider{
+	 position: relative; 
+	 background-color: white;
+	 padding-bottom: 50px;
+ }
+ .post-slider .next{
+	 position: absolute;
+	 top: 50%;
+	 right: 30px;
+	 font-size: 2em;
+	 color:  #1f8d94;
+	 cursor: pointer;
+ }
+ .post-slider .prev{
+	position: absolute;
+	top: 50%;
+	left: 30px;
+	font-size: 2em;
+	color:  #1f8d94;
+	cursor: pointer;
+}
+ .post-slider .slider-title{
+	 text-align: center;
+	 margin: 30px  auto;
+ }
+ .post-slider .post-wrapper{
+	 width: 84%;
+	 height: 70%;
+	 overflow: hidden;
+	 margin: 0px auto; 
+ }
+ .post-slider .post-wrapper .post{ 
+	 width: 300px;
+	 height: 400px;
+	 margin: 0px 10px  ;   
+	 display: inline-block;
+	 background-color: white;
+	 box-shadow: 1rem 1rem 1.5rem -1rem rgb(194, 194, 194);
+	 border-radius: 10px; 
+ }
+ .post-slider .post-wrapper .post .slider-image{
+	 width: 100%;
+	 height:200px;
+	 border-top-left-radius: 5px;
+	 border-top-right-radius: 5px;
+ }
+ .post-slider .post-wrapper .post .post-info{
+	 height: 130px;
+	 padding: 0px 5px; 
+ }
+
+ /* Recent post */
+ .content{
+	 width: 85%;
+	 margin-bottom: 30px auto 30px; 
+	 margin-left: 7.5%;
+
+ }
+ .content .main-content{
+	 width: 100%;
+	 float: left; 
+ }
+ .clearfix::after{
+	 content: '';
+	 display: block;
+	 clear: both;
+ }
+ .content .main-content .recent-post-title{
+	 margin: 30px;
+ }
+
+ .content .main-content .post{
+	 width: 95%;
+	 height: 400px;
+	 margin: 30px auto;
+	 border-radius: 5px;
+	 background-color: white;
+	 box-shadow: 10px 10px 10px -10px rgb(160, 160, 160);
+ }
+ .content .main-content .post .post-image{
+	width: 40%;
+	height: 100% ;
+	float: left;
+}
+.content .main-content .post .post-preview{
+	width: 60%;
+	padding: 10px;
+	float: right;
+}
+ <!-- home -->
+ 
